@@ -337,7 +337,8 @@ h6 { font-size: 16px;}
 
 .about-me{
   text-align: center;
-
+  width: 900px;
+	margin-left: 10%;
 }
 .about-head{
 	line-height: 2.5;
@@ -346,8 +347,10 @@ h6 { font-size: 16px;}
 	color: var(--secondaryText);
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.25rem;
-	padding: 0 4.5rem 1.5rem 4.5rem;
-	line-height: 2;
+/* padding: 0 4.5rem 1.5rem 4.5rem; */
+	line-height: 1.7;
+
+  padding-bottom: 8px;
 }
 .text2{
 	line-height: 1.0;
@@ -363,19 +366,21 @@ h6 { font-size: 16px;}
 	border-top: 6px dotted;
 	width: 5%;
 	opacity: 0.5;
+	padding-top: 8px;
 }
 .skill-head{
 	line-height: 2.5;
 }
 #my-skills{
-	padding: 1.5rem 9.5rem 1.5rem 9.5rem;
-	font-size: 1.35rem;
+	/*padding: 1.5rem 9.5rem 1.5rem 9.5rem; */
+  font-size: 1.25rem;
+
 	/* line-height: 2; */
 }
 #skills{
 	/* padding-left: 6.5rem
 	padding-right: 6.5rem; */
-	padding: 0.5rem;
+	padding: 25px;
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--previewShadow);
@@ -457,31 +462,40 @@ h6 { font-size: 16px;}
 
 .icons{
     /* padding: 1rem 3rem 1rem 19rem; */
-		padding-right: 19rem;
-    padding-left: 4rem;
+		/* padding-right: 400px; */
+    padding-left: 40px;
+		width: 50%;
 		color: var(--secondaryText);
+		margin: 10px 0;
+}
+
+.row{
+     /* display: flex; */
+    align-items: center;
 }
 .info{
     margin-left: 30px;
-		line-height: 1.5;
+		/* line-height: 1.5; */
 }
 .head{
 	font-size: 1.1rem;
 	font-weight: 500;
-  padding-top: 1.2rem;
+  padding-top: 25px;
 }
 .fas{
-  padding-top: 2rem;
+  padding-top: 40px;
 }
 .fab{
-	padding-top: 1.5rem;
+	padding-top: 30px;
 }
+
 #contact-form{
 	display: block;
 	max-width: 800px;
 	margin: 0 auto;
 	border: 1px solid var(--borderColor);
 	padding: 15px;
+
 	border-radius: 5px;
 	background-color: var(--mainColor);
 	margin-bottom: 50px;
@@ -496,7 +510,8 @@ h6 { font-size: 16px;}
 	font-size: 14px;
 }
 .form-heading{
-
+	width: 50%;
+   /* margin-left: 400px; */
 	/* padding-top: 1rem; */
 }
 
@@ -557,8 +572,15 @@ footer span a:hover{
 
 	.right-column{
 		justify-content: center;
+		width: 100%;
 	}
-
+  .about-me{
+		width: 95%;
+		justify-content: center;
+		padding: 0;
+		margin: 0;
+		/* text-align: justify; */
+	}
 }
 
 @media screen and (max-width: 400px){
