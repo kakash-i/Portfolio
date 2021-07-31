@@ -337,8 +337,9 @@ h6 { font-size: 16px;}
 
 .about-me{
   text-align: center;
-  width: 900px;
-	margin-left: 10%;
+/*   width: 900px; */
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .about-head{
 	line-height: 2.5;
@@ -575,7 +576,7 @@ footer span a:hover{
 		width: 100%;
 	}
   .about-me{
-		width: 95%;
+/* 		width: 95%; */
 		justify-content: center;
 		padding: 0;
 		margin: 0;
